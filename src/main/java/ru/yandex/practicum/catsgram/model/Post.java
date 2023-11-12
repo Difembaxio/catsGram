@@ -1,27 +1,4 @@
 package ru.yandex.practicum.catsgram.model;
-<<<<<<< HEAD
-
-import java.time.Instant;
-
-public class Post {
-
-    private final String author; // автор
-    private final Instant creationDate = Instant.now(); // дата создания
-    private String description; // описание
-    private String photoUrl; // url-адрес фотографии
-
-    public Post(String author, String description, String photoUrl) {
-        this.author = author;
-        this.description = description;
-        this.photoUrl = photoUrl;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public Instant getCreationDate() {
-=======
 import java.time.LocalDate;
 
 public class Post {
@@ -60,7 +37,6 @@ public class Post {
     }
 
     public LocalDate getCreationDate() {
->>>>>>> 221ef09 (стартовое задание котограм)
         return creationDate;
     }
 
@@ -79,9 +55,4 @@ public class Post {
     public void setPhotoUrl(String photoUrl) {
         this.photoUrl = photoUrl;
     }
-<<<<<<< HEAD
 }
-
-=======
-}
->>>>>>> 221ef09 (стартовое задание котограм)
